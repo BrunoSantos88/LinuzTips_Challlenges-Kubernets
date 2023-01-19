@@ -11,4 +11,4 @@ Desafio 1
 
 * Lembrando não da para cria .sh e executar, tem que executar os commando linha por linha.
 
-* Link semana 1 https://github.com/BrunoSantos88/LinuxTipsCertifiedContainersExpert
+* Link semana 1 https://github.com/badtuxx/CertifiedContainersExpert/tree/main/DescomplicandoKubernetes
