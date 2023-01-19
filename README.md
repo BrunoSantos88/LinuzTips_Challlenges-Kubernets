@@ -15,4 +15,3 @@ Desafio 1
 * Link semana 1 https://github.com/badtuxx/CertifiedContainersExpert/tree/main/DescomplicandoKubernetes
 =======
 * Link semana 1 https://github.com/BrunoSantos88/LinuxTipsCertifiedContainersExpert
->>>>>>> d0985848b576b1a78e3ccce83f69c171dada0f61
