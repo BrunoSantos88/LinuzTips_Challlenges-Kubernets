@@ -1,0 +1,29 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: nginx-giropops
+  name: nginx-giropops
+spec:
+  containers:
+  - image: nginx-giropops
+    name: meu-nginx
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: nginx-giropops
+spec:
+  selector:
+    app: nginx-giropops
+  ports:
+    - protocol: "TCP"
+      port: 80
+      targetPort: 80
+  type: LoadBalancer
