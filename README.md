@@ -11,8 +11,13 @@ Desafio 1
 
 * Lembrando não da para cria .sh e executar, tem que executar os commando linha por linha.
 
-<<<<<<< HEAD
-* Link semana 1 https://github.com/badtuxx/CertifiedContainersExpert/tree/main/DescomplicandoKubernetes
-=======
 * Link semana 1 https://github.com/BrunoSantos88/LinuxTipsCertifiedContainersExpert
->>>>>>> d0985848b576b1a78e3ccce83f69c171dada0f61
+
+
+#minikube Windows
+choco install minikube kubernetes-cli
+winget install minikube
+
+#agente ativo dockerhub desktop ou virtual machine
+minikube start --driver=docker --cpus=2 --memory=2000m --disk-size=20000mb --nodes=3
+minikube start --driver=virtualbox

@@ -7,7 +7,7 @@ metadata:
   name: nginx-giropops
 spec:
   containers:
-  - image: nginx-giropops
+  - image: nginx
     name: meu-nginx
     resources: {}
   dnsPolicy: ClusterFirst
