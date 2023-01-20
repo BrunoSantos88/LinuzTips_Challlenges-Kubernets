@@ -21,3 +21,7 @@ winget install minikube
 #agente ativo dockerhub desktop ou virtual machine
 minikube start --driver=docker --cpus=2 --memory=2000m --disk-size=20000mb --nodes=3
 minikube start --driver=virtualbox
+
+minikube update-context
+Export /.kube/config
+
