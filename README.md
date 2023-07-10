@@ -1,4 +1,7 @@
 # LinuzTips_Challlenges-Kubernets
+
+- Link https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/ </P>
+  
 Desafio 1
 - Executar o minikube 3 nó.
 - prestar atençao. so vai com  --force no final do commando.
