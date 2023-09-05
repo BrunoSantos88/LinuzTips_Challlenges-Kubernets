@@ -37,9 +37,9 @@ minikube update-context
 
 # commandos minikube
 
-- minikube start                     iniciar minikube
+-   minikube start                   iniciar minikube
 - --driver=docker                    Driver
-- --cpus=4                           Cpu
+- --cpus=4                           CPU
 - --nodes 2 -p multinode-demo        Cluster capacidade
 - --memory 4096                      memoria
 - --disk-size 100gb                  Disco
